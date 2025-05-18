@@ -124,21 +124,6 @@ MiTurno/
 ```
 ---
 
-## 📁 Estructura por Capas
-
-```bash
-src/
-└── main/
-    └── java/com/MiTurno/
-        ├── controller/      # Controladores REST: entrada y salida de datos
-        ├── model/           # Entidades que representan la base de datos
-        ├── repository/      # Interfaces para persistencia con JPA
-        ├── service/         # Lógica del negocio (clases de servicio)
-        └── MiTurnoApplication.java  # Clase principal para iniciar Spring Boot
-```
-
----
-
 ## 🧑‍💻 Autor
 
 Desarrollado por [Sangster](https://github.com/SangsterPrime) && compañeros
