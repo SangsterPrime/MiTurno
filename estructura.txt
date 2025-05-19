@@ -1,0 +1,153 @@
+Listado de rutas de carpetas para el volumen OS
+El número de serie del volumen es 2A52-7354
+C:.
+¦   estructura.txt
+¦   LICENSE
+¦   README.md
+¦   
++---.qodo
++---.vscode
+¦       settings.json
+¦       
++---MiTurno
+    ¦   .classpath
+    ¦   .factorypath
+    ¦   .project
+    ¦   HELP.md
+    ¦   mvnw
+    ¦   mvnw.cmd
+    ¦   pom.xml
+    ¦   README.md
+    ¦   
+    +---.settings
+    ¦       org.eclipse.core.resources.prefs
+    ¦       org.eclipse.jdt.apt.core.prefs
+    ¦       org.eclipse.jdt.core.prefs
+    ¦       org.eclipse.m2e.core.prefs
+    ¦       
+    +---.vscode
+    ¦       settings.json
+    ¦       
+    +---src
+    ¦   +---main
+    ¦   ¦   +---java
+    ¦   ¦   ¦   +---com
+    ¦   ¦   ¦       +---MiTurno
+    ¦   ¦   ¦           +---MiTurno
+    ¦   ¦   ¦               ¦   MiTurnoApplication.java
+    ¦   ¦   ¦               ¦   
+    ¦   ¦   ¦               +---controller
+    ¦   ¦   ¦               ¦       ConfiguracionController.java
+    ¦   ¦   ¦               ¦       InstitucionController.java
+    ¦   ¦   ¦               ¦       ModuloController.java
+    ¦   ¦   ¦               ¦       RolController.java
+    ¦   ¦   ¦               ¦       SucursalController.java
+    ¦   ¦   ¦               ¦       TrabajadorController.java
+    ¦   ¦   ¦               ¦       TurnoController.java
+    ¦   ¦   ¦               ¦       UsuarioController.java
+    ¦   ¦   ¦               ¦       
+    ¦   ¦   ¦               +---model
+    ¦   ¦   ¦               ¦       Configuracion.java
+    ¦   ¦   ¦               ¦       Estado.java
+    ¦   ¦   ¦               ¦       EstadoModulo.java
+    ¦   ¦   ¦               ¦       Institucion.java
+    ¦   ¦   ¦               ¦       Modulo.java
+    ¦   ¦   ¦               ¦       Rol.java
+    ¦   ¦   ¦               ¦       Sucursal.java
+    ¦   ¦   ¦               ¦       Trabajador.java
+    ¦   ¦   ¦               ¦       Turno.java
+    ¦   ¦   ¦               ¦       Usuario.java
+    ¦   ¦   ¦               ¦       
+    ¦   ¦   ¦               +---repository
+    ¦   ¦   ¦               ¦       ConfiguracionRepository.java
+    ¦   ¦   ¦               ¦       InstitucionRepository.java
+    ¦   ¦   ¦               ¦       ModuloRepository.java
+    ¦   ¦   ¦               ¦       RolRepository.java
+    ¦   ¦   ¦               ¦       SucursalRepository.java
+    ¦   ¦   ¦               ¦       TrabajadorRepository.java
+    ¦   ¦   ¦               ¦       TurnoRepository.java
+    ¦   ¦   ¦               ¦       UsuarioRepository.java
+    ¦   ¦   ¦               ¦       
+    ¦   ¦   ¦               +---service
+    ¦   ¦   ¦                       ConfiguracionService.java
+    ¦   ¦   ¦                       InstitucionService.java
+    ¦   ¦   ¦                       ModuloService.java
+    ¦   ¦   ¦                       RolService.java
+    ¦   ¦   ¦                       SucursalService.java
+    ¦   ¦   ¦                       TrabajadorService.java
+    ¦   ¦   ¦                       TurnoService.java
+    ¦   ¦   ¦                       UsuarioService.java
+    ¦   ¦   ¦                       
+    ¦   ¦   +---resources
+    ¦   ¦       ¦   application.properties
+    ¦   ¦       ¦   
+    ¦   ¦       +---static
+    ¦   ¦       +---templates
+    ¦   +---test
+    ¦       +---java
+    ¦           +---com
+    ¦               +---MiTurno
+    ¦                   +---MiTurno
+    ¦                           MiTurnoApplicationTests.java
+    ¦                           
+    +---target
+        +---classes
+        ¦   ¦   application.properties
+        ¦   ¦   
+        ¦   +---com
+        ¦       +---MiTurno
+        ¦           +---MiTurno
+        ¦               ¦   MiTurnoApplication.class
+        ¦               ¦   
+        ¦               +---controller
+        ¦               ¦       ConfiguracionController.class
+        ¦               ¦       InstitucionController.class
+        ¦               ¦       ModuloController.class
+        ¦               ¦       RolController.class
+        ¦               ¦       SucursalController.class
+        ¦               ¦       TrabajadorController.class
+        ¦               ¦       TurnoController.class
+        ¦               ¦       UsuarioController.class
+        ¦               ¦       
+        ¦               +---model
+        ¦               ¦       Configuracion.class
+        ¦               ¦       Estado.class
+        ¦               ¦       EstadoModulo.class
+        ¦               ¦       Institucion.class
+        ¦               ¦       Modulo.class
+        ¦               ¦       Rol.class
+        ¦               ¦       Sucursal.class
+        ¦               ¦       Trabajador.class
+        ¦               ¦       Turno.class
+        ¦               ¦       Usuario.class
+        ¦               ¦       
+        ¦               +---repository
+        ¦               ¦       ConfiguracionRepository.class
+        ¦               ¦       InstitucionRepository.class
+        ¦               ¦       ModuloRepository.class
+        ¦               ¦       RolRepository.class
+        ¦               ¦       SucursalRepository.class
+        ¦               ¦       TrabajadorRepository.class
+        ¦               ¦       TurnoRepository.class
+        ¦               ¦       UsuarioRepository.class
+        ¦               ¦       
+        ¦               +---service
+        ¦                       ConfiguracionService.class
+        ¦                       InstitucionService.class
+        ¦                       ModuloService.class
+        ¦                       RolService.class
+        ¦                       SucursalService.class
+        ¦                       TrabajadorService.class
+        ¦                       TurnoService.class
+        ¦                       UsuarioService.class
+        ¦                       
+        +---generated-sources
+        ¦   +---annotations
+        +---generated-test-sources
+        ¦   +---test-annotations
+        +---test-classes
+            +---com
+                +---MiTurno
+                    +---MiTurno
+                            MiTurnoApplicationTests.class
+                            

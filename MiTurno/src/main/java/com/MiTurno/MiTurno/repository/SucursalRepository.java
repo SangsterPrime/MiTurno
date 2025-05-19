@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import com.MiTurno.MiTurno.model.Sucursal;
 
+
 @Repository
 public interface SucursalRepository extends JpaRepository<Sucursal, Long>{
 
@@ -16,4 +17,6 @@ public interface SucursalRepository extends JpaRepository<Sucursal, Long>{
         SELECT s, s.configuracion.notificaciones_activadas, s.institucion.nombre FROM Sucursal s        
         """)
     List<Object[]> findSucursalConConfigYInsti();
+    List<Sucursal> findByCapacidad(Integer capacidad);
+    
 }

@@ -20,6 +20,11 @@ public class SucursalService {
     @Autowired
     private SucursalRepository sucursalRepository;
 
+    public List<Sucursal> findByCapacidad(Integer capacidad) {
+        return sucursalRepository.findByCapacidad(capacidad);
+    }
+    
+
     public List<Sucursal> findAll(){
         return sucursalRepository.findAll();
     }

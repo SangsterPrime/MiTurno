@@ -27,6 +27,12 @@ public class SucursalController {
     @Autowired
     private SucursalService sucursalService;
 
+    @GetMapping("/capacidad/{capacidad}")
+    public List<Sucursal> obtenerPorCapacidad(@PathVariable Integer capacidad) {
+        return sucursalService.findByCapacidad(capacidad);
+    }
+    
+
     @GetMapping
     public ResponseEntity<List<Sucursal>> listar() {
         List<Sucursal> sucursal = sucursalService.findAll();
@@ -45,14 +51,6 @@ public class SucursalController {
         return ResponseEntity.ok(sucursal);
     }
 
-    @GetMapping("/{capacidad}")    
-    public ResponseEntity<Sucursal> buscarCapacidad(@PathVariable Integer capacidad_maxima) {
-        Sucursal sucursal = sucursalService.findByCapacidad(capacidad_maxima);
-        if (sucursal == null) {
-            return ResponseEntity.notFound().build();   
-        }
-        return ResponseEntity.ok(sucursal);
-    }
 
     @GetMapping("/resumen")
     public ResponseEntity<List<Map<String, Object>>> resumen() {
